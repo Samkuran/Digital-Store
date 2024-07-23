@@ -1,7 +1,7 @@
 import instaIcon from "../../../assets/icons/instagram-icon.svg";
 import faceIcon from "../../../assets/icons/facebook-icon.svg";
 import xIcon from "../../../assets/icons/x-icon.svg";
-import logo from "../../../../public/LogoWhite.svg";
+import logo from "/LogoWhite.svg";
 
 import { Link } from "react-router-dom";
 
