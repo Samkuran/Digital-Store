@@ -24,7 +24,7 @@ export function FooterInformations() {
       {footerLinks.map((links, index) => (
         <div key={index}>
           <h4 className="mb-3 text-lg font-semibold text-white md:mb-7">
-            Informações
+            {index === 0 ? "Informações" : "Categorias"}
           </h4>
           <ul className="flex flex-col gap-1">
             {links.map((item, subIndex) => (
